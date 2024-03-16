@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 0;
+    background: linear-gradient(to right, #ffed25, #ff1111);
+    color: #140c0c;
+}
+
+
+
+.sidebar {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: auto; /* Add auto margin to push it to the center */
+    margin-right: auto; /* Add auto margin to push it to the center */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the sidebar horizontally */
+}
+
+
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+    background-color: #ddd;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #f2a41f;
+    height: auto;
+    
+
+  }
+
+
+  
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #dfe923;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+
+.player {
+    
+    padding: 20px;
+    width: 67%;
+    border: 1px solid rgb(23, 10, 17);
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(44, 249, 218, 0.1);
+    margin: 0 auto; /* Center the player horizontally */
+}
+
+
+.music-info {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.song-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffffe1;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.audio-controls {
+    text-align: center;
+}
+
+.controls input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 5px;
+    background: #cdcfcd;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.controls input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f13737;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+  
+ 
+  
+  /* Removes the timeline */
+ 
+  
+  /* Removes the time stamp */
+ 
+  audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    
+  }
+
+  audio::-webkit-media-controls-sound-button {
+    
+    display: none;
+  }
+  
+  /* Removes play-button */
+  audio::-webkit-media-controls-play-button {
+    display: flex;
+
+}
